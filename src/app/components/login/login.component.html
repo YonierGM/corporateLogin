@@ -1,0 +1,33 @@
+<section class="contenido">
+    <div class="login">
+        <form action="" class="formulario">
+            <div class="logo">
+                <img ngSrc="../../../assets/images/Meta-Logo.png" title="Logo META corporation" alt="Logo gtc" fill>
+            </div>
+            <div class="inputs">
+                <div class="input">
+                    <div class="color"></div>
+                    <div class="password">
+                        <input [type]="changetype?'password':'text'" placeholder="Enter your password" name="password">
+                        <span class="eyeicon" (click)="viewpass()"><i [ngClass]="visible?'fa fa-eye':'fa fa-eye-slash'"></i>
+                        </span>
+                    </div>
+                </div>
+                <div class="input">
+                    <div class="color"></div>
+                    <input type="text" placeholder=" Email" name="email">
+                </div>
+            </div>
+            
+            <button type="button">Login</button>
+        </form>
+        <div class="aside">
+            <div class="info">
+                <P>META corporati&oacute;n</P>
+                <h1>WELCOME BACK</h1>
+                <hr>
+            </div>
+            <img src="../../../assets/images/aside.jpg" title="Fondo Aside" alt="Aside">
+        </div>
+    </div>
+</section>
